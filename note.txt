@@ -1,3 +1,7 @@
+Initial default
+--port=8080
+--signature-type=http
+
 ===  Local host  ===
 FUNCTION_TARGET=helloWorld \
 npx @google-cloud/functions-framework
