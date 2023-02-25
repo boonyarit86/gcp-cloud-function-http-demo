@@ -1,0 +1,8 @@
+===  Local host  ===
+FUNCTION_TARGET=helloWorld \
+npx @google-cloud/functions-framework
+
+=== Live host  ===
+gcloud functions deploy "helloWorld" \
+--trigger-http \
+--runtime=nodejs10
